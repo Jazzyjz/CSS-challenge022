@@ -64,54 +64,36 @@ p {
     background-color:#96BE8C ;
 }
 
-.navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    
-    list-style: none;
-    margin: 0; 
-    background: deepskyblue;
-  }
-
-.navigation a {
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: white;
-
-}
-
-.navigation a:hover {
-  background: #1565C0;
-}
 
 @media all and (max-width: 800px) {
-  .navigation {
+  nav {
     justify-content: space-around;
   }
 }
 @media all and (max-width: 600px) {
-    .navigation {
+    nav {
       flex-flow: column wrap;
       padding: 0;
     }
-    .navigation a { 
+    nav a { 
       text-align: center; 
       padding: 10px;
       border-top: 1px solid rgba(255, 255, 255,0.3); 
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
     }
-    .navigation li:last-of-type a {
+    nav li:last-of-type a {
       border-bottom: none;
     }
   }
 
 
-
 .info{
     display: flex;
-
+    justify-content:space-around;
+    
+}
+.info img {
+    max-width:190px;
 }
 .info:hover {
     background-color:#96BE8C ;
@@ -120,7 +102,6 @@ p {
 .Work  {
     box-shadow:5px 5px 5px #646536;
     margin: 4px;
-   
 }
 .Work:hover {
     background-color:#96BE8C ;
@@ -140,42 +121,13 @@ p {
 .moremore :hover {
     background-color:#96BE8C ;
 }
-#Contact-me{
+footer{
     border-color: #96BE8C ;
     border-style: solid;
     margin-top: 7px;
     box-shadow:5px 5px 5px #646536;
 
 }
-#Contact-me:hover {
+footer:hover {
     background-color:#96BE8C ;
-}
-
-
-h2{
-    font-size: 25px;
-    padding: 50px;
-    margin-top: 10px;
-}
-
-h3{
-    font-size: 25px;
-    padding: 50px;
-    margin-top: 10px;
-}
-
-h4{
-    font-size: 25px;
-    padding: 50px;
-    margin-top: 10px;
-}
-h5{
-    font-size: 25px;
-    padding: 50px;
-    margin-top: 10px;
-}
-h6{
-    font-size: 25px;
-    padding: 50px;
-    margin-top: 10px;
 }
