@@ -1,0 +1,12 @@
+body{
+    background-color: #4a4e69 !important;
+}
+#works{
+    display: flex;
+    justify-content:space-between;
+}
+
+footer{
+    border-style: dashed;
+    border-color: black;
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: #9a8c98 !important;
+}
+img{
+    width: 10%;
+    height: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+#profpic{
+    margin: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 15px;
+}
+header{
+    display: inline-flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: right;
+    margin-top: 30px;
+}
+#info{
+    margin: 20px;
+
+}
+#About-me{
+    text-align: center;
+}
+.card{
+    box-shadow: 7px 7px 7px;
+}
+#req{
+    max-width: 50%;
+}
+
+footer{
+    margin: 50px;
+}
+.btn{
+    background-color: #22223b !important ;
+}
